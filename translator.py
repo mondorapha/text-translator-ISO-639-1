@@ -3,6 +3,7 @@ Little app to translate text files to every language listed under
 ISO 639-1 codes. Language has to be specified following the same format.
 '''
 
+#First install translate --> pip install translate
 from translate import Translator
 
 chosen_lang = input('Which language to translate to (ISO 639-1 format): ')
